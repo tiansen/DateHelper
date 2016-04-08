@@ -1,0 +1,153 @@
+#searchspan{
+	border: solid 1px #5188CF;
+	background: #5188CF;
+	color: #fff;
+	padding: 2px 5px;
+}
+.search{
+	text-align: center;
+	margin: 0 auto;
+}
+#age{
+	width: 50px;
+}
+#searchbtn{
+	background: #5188CF;
+	border: solid 1px #5188CF;
+	border-radius: 4px;
+	color: #fff;
+	padding:2px 5px;
+	cursor: pointer;
+}
+h4{
+	margin-left: 10px;
+}
+.line12{
+	display: block;
+	width: 950px;
+	background: #F0AD4E;
+	height: 2px;
+	margin-top: 5px;
+}
+.allpublishdate{
+	text-align: center;
+	margin-top: 35px;
+}
+#searchcon{
+	margin-top: 20px;
+}
+#searchcon input{
+	border: solid 1px #5188CF;
+	border-radius: 4px;
+	height: 20px;
+}
+#allrelease{
+	display: block;
+}
+.allreleaseList{
+	width:300px;
+	text-align:left;
+	float: left;
+	background:#FFAFC9;
+	border: solid 1px #ddd;
+	box-shadow: 0 0 2px #7685FB;
+	margin-left: 6px;
+	height: 340px;
+	margin-top: 4px;
+	border-radius: 4px;
+
+}
+.allreleaseList ul{
+	list-style: none;
+	padding:5px;
+	margin-left: 15px;
+	margin-top: -30px;
+
+}
+.title{
+	margin-top: 50px;
+	background: #fff!important;
+	border-style: none;
+	color: #0273DB!important;
+}
+.allreleaseList li{
+	margin-bottom: 5px;
+}
+.allreleaseList li label{
+	background: #f0ad4e;
+	padding:3px 6px;
+	border-radius: 5px;
+	color: #fff;
+	margin-bottom: 4px;
+}
+.allreleaseList li span{
+	color: #0273DB;
+}
+.allreleaseList a{
+	position: absolute;
+	margin-top:51px;
+	color: #F63148;
+	margin-left: -90px;
+}
+.allreleaseList a:hover{
+	color: #4031F6;
+	text-decoration: none;
+}
+.allreleaseList ul li button{
+	background: #0273DB;
+	border-style: none;
+	padding:1px 6px;
+	border-radius: 4px;
+	color: #fff;
+	/*position: absolute;*/
+	margin-top: 20px;
+}
+.ignore{
+	margin-left: 20px;
+}
+.paixu{
+	margin-top:-35px;
+	margin-left:340px;
+	font-size: 16px;
+}
+.paixu ul{
+	list-style: none;
+	margin-left: 310px;
+	margin-top: -27px;
+	position: absolute;
+	width: 300px;
+
+}
+.paixu ul li{
+	margin-right: 3px;
+	float: left;
+	width: 140px;
+}
+#timepaix,#agepaix{
+	background: #ddd;
+	padding:3px 6px;
+	display: block;
+	height: 34px;
+}
+#timelist,#agelist{
+	height: 61px;
+	margin-top: -8px;
+	background: #ccc;
+}
+#timelist p,#agelist p{
+	cursor: pointer;
+	line-height: 28px;
+	height:28px;
+}
+#timelist p:hover{
+	background:#FF8FC9;
+}
+#agelist p:hover{
+	background:#FF8FC9; 
+}
+#timelist p:nth-child(2){
+	margin-top: -5px;
+}
+#agelist p:nth-child(2){
+	margin-top: -5px;
+}

@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:"微软雅黑";
+}
+.container {
+    width: 952px;
+    height: 520px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.leftlove {
+    width: 250px;
+    height: 520px;
+    border-right: 2px dashed #eeeeee;
+    float: left;
+}
+.nav-tabs {
+    border-top: 1px dashed #eeeeee;
+    border-bottom: 0px;
+}
+.nav-stackedlove li a {
+    font-size: 16px;
+    color: #000000;
+}
+.badge {
+    font-size: 10px;
+    background-color: #ff8fc9;
+    font-weight: 200;
+}
+.nav-stacked li a:hover {
+    background-color: #eeeeee;
+    opacity: 1;
+}
+.glyphicon {
+    padding-right: 10px;
+    color: #ff8fc9;
+}
+.middlelove {
+    width: 658px;
+    height: 520px;
+    float: left;
+}
+.note-content {
+    list-style: none;
+}
+.note-content li {
+    margin-left: 15px;
+    border-bottom: 2px dashed #eeeeee;
+}
+.note-content li p {
+    margin-bottom: 2px;
+}
+.note-body {
+    text-indent: 20px;
+}
+.note-content a {
+    cursor: pointer;
+    padding-left: 15px;
+}
+.note-content a:hover {
+    color: red;
+    text-decoration: none;
+}
+.note-title {
+    color: #ff8fc9;
+    font-size: 16px;
+}
+.write {
+    padding-left: 60px;
+}
+.notedetails {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    border: 1px dashed #eeeeee;
+}
+.btnback {
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+

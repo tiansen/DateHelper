@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    width: 740px;
+    height: 464px;
+    margin: 10px auto;
+}
+.chartcw{
+    width: 600px;
+    height: 230px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.mytable3 {
+    width: 600px;
+    margin: 0 auto;
+    border: 2px dashed #eee;
+    text-align: center;
+    clear: both;
+}
+.mytable3 tr th {
+    text-align: center;
+}
+.mytable3 tr td {
+    padding-left: 20px;
+}
+.mytable3 .btn {
+    padding: 2px;
+    background-color: #ff8ac5;
+}
+.table_fenye {
+    margin-right: 90px;
+}
+.hidden_orderinfo {
+    margin-top: 80px;
+}
+.hidden_orderinfo .title {
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+.hidden_orderinfo .mytable3 {
+    width: 650px;
+}
+.hidden_orderinfo a {
+    margin-right: 400px;
+    color: #ff0000;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+a:hover {
+    text-decoration: none;
+    color: #ffff00;
+}

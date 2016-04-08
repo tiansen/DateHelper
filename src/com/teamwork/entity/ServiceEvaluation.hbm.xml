@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.teamwork.entity">
+	<class name="ServiceEvaluation">
+		<id name="SEId" type="java.lang.Integer">
+			<column name="SEId" />
+			<generator class="identity" />
+		</id>
+		<property generated="never" lazy="false" name="ServiceId"
+			type="java.lang.Integer">
+			<column name="ServiceId" />
+		</property>
+		<property generated="never" lazy="false" name="UserId"
+			type="java.lang.Integer">
+			<column name="UserId" />
+		</property>
+		<property generated="never" lazy="false" name="Content"
+			type="java.lang.String">
+			<column name="Content" />
+		</property>
+		<property generated="never" lazy="false" name="Time"
+			type="java.lang.Date">
+			<column name="Time" />
+		</property>
+		<property generated="never" lazy="false" name="State"
+			type="java.lang.Integer">
+			<column  name="State" />
+		</property>
+		
+	</class>
+</hibernate-mapping>

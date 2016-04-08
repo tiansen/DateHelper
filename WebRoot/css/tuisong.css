@@ -1,0 +1,68 @@
+.tuisongcontent {
+    width: 600px;
+    height: 500px;
+ 
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+#datepush{
+    margin-left: 12px;
+}
+.mytable2 {
+    margin: 0 auto;
+}
+.mytable2 tr td {
+    padding-left: 20px;
+}
+.meinv {
+    width: 120px;
+    height: 150px;
+}
+.personinfo {
+    text-indent: 20px;
+    width: 300px;
+    word-wrap: break-word;
+}
+.personinfo p {
+    line-height: 15px;
+}
+.mybtn div{
+    margin-top: 20px;
+}
+.line3{
+            display: block;
+            width: 200px;
+            background: #F0AD4E;
+            height: 2px;
+            margin-top: 5px;
+        
+        }
+.peitu {
+    width: 300px;
+    height: 180px;
+    float: right;
+    margin-left: -150px;
+    position: absolute;
+    bottom: 20px;
+}
+.jieshao {
+    width: 265px;
+    overflow: hidden;
+    max-height: 100px;
+}
+.bottom {
+    height: 80px;
+}
+.checkall {
+    color: red;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+}
+.checkall:hover {
+    text-decoration: none;
+}

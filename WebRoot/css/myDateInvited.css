@@ -1,0 +1,129 @@
+﻿
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			color: #555;
+		}
+		h4{
+			margin-left: 10px;
+		}
+		.dateInvited{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.dateInvited span{
+			display: block;
+			max-width: 350px;
+			margin-top: 8px;
+		}
+		.date{
+			margin-top: 4px;
+			text-align: center;
+		}
+		#myrelease{
+			
+			padding: 2px 6px;
+			margin-left: 440px;
+			position: absolute;
+			font-size: 16px;
+			font-weight: 700;
+			border-radius: 4px;
+			background: #FB76C5;
+			cursor: pointer;
+			top:182px;
+		}
+		#myrecive{
+			padding: 2px 6px;
+			margin-left: 549px;
+			position: absolute;
+			font-size: 16px;
+			font-weight: 700;
+			border-radius: 4px;
+			background: #bbb;
+			cursor: pointer;
+			top:182px;
+		}
+		.line11{
+			display: block;
+			width: 658px;
+			background: #f0ad4e;
+			height: 2px;
+			margin-top: 50px;
+			margin-left: 220px;
+		/*	margin-bottom: 10px;*/
+		}
+		#release{
+			display: block;
+		}
+		#receive{
+			display: none;
+		}
+		.releaseList{
+			width:300px;
+			text-align:left;
+			float: left;
+			margin-left: 60px;
+			margin-top: 6px;
+			background:#FFAFC9;
+			border: solid 1px #ddd;
+			box-shadow: 0 0 2px #7685FB;
+			height: 360px;
+			max-height: 380px;
+			border-radius: 4px;
+
+		}
+		.releaseList ul{
+			list-style: none;
+			padding:5px;
+			margin-left: 15px;
+			margin-top: -30px;
+
+		}
+		.receive{
+			margin-top: 250px;
+		}
+		.title{
+			margin-top: 50px;
+		}
+		.receiveList{
+			float: left;
+		}
+		.receiveList ul{
+			list-style: none;
+			padding:5px;
+			margin-left: 15px;
+			margin-top: -20px;
+		}
+		.title{
+			background: #fff!important;
+			border-style: none;
+			color: #0273DB!important;
+		}
+		.releaseList li{
+			margin-bottom: 5px;
+		}
+		.releaseList li label{
+			background: #f0ad4e;
+			padding:3px 6px;
+			border-radius: 5px;
+			color: #fff;
+			margin-bottom: 4px;
+		}
+		.releaseList li span{
+			color: #0273DB;
+		}
+		.releaseList a{
+			color: #F63148;
+		}
+		.releaseList a:hover{
+			color: #4031F6;
+			text-decoration: none;
+		}
+		.voice{
+			width: 270px;
+			height: 80px;
+			max-height: 80px;
+			overflow: hidden;
+		}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.teamwork.entity">
+	<class name="Message">
+		<id name="MessageId" type="java.lang.Integer">
+			<column name="MessageId" />
+			<generator class="identity" />
+		</id>
+		<property generated="never" lazy="false" name="MessageType"
+			type="java.lang.String">
+			<column name="MessageType" />
+		</property>
+		<property generated="never" lazy="false" name="Content"
+			type="java.lang.String">
+			<column name="Content" />
+		</property>
+
+
+	</class>
+</hibernate-mapping>

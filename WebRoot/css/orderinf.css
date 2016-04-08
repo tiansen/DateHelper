@@ -1,0 +1,29 @@
+.orderinf{
+	width:500px;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.orderinf th,td{
+	text-align: center;
+	height: 30px;
+	color: 
+}
+.orderinf th{
+	font-size: 16px;
+}
+.orderinf td{
+	font-size: 14px;
+}
+.titleshow{
+	margin-left:50px;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.linev{
+	text-align: center;
+	display: block;
+	width: 200px;
+	height: 2px;
+	background: orange;
+}

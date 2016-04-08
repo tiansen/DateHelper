@@ -1,0 +1,14 @@
+.hidden-content {
+    margin-left: 250px;
+    width: 500px;
+}
+.hidden-content p {
+    width: 600px;
+}
+.hidden-content button {
+    margin-left: 180px;
+}
+.num {
+    font-size: 20px;
+    color: #ffff00;
+}

@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.contentfw {
+    width: 680px;
+    height: 440px;
+    margin: 10px auto;
+}
+.mytable4 {
+    width: 600px;
+    margin: 0 auto;
+    border: 2px dashed #eee;
+    text-align: center;
+    clear: both;
+}
+.mytable4 tr th {
+    text-align: center;
+}
+.mytable4 tr td {
+    padding-left: 20px;
+}
+.mytable4 .btn {
+    padding: 0px;
+}
+.mytable4 .servicebtn {
+    background-color: #f7ecb5;
+}
+.mytable4 .tuisongbtn {
+    background-color: #ff8ac5;
+}
+.service-drop {
+    min-width: 80px;
+    margin-left: 10px;
+}
+.hidden-per {
+    border: 2px dashed #ff8ac5;
+    width: 508px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    z-index: 1000;
+    box-shadow: 5px 5px 15px #000;
+    background: #eee;
+}
+.hidden-per .photo-ul li {
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.hidden-per .fenye li {
+    list-style-type: none;
+    float: left;
+}
+.hidden-per a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+.num-fenye {
+    position: relative;
+    right: -320px;
+    top: -35px;
+}
+.chinese-fenye {
+    float: right;
+    position: relative;
+    right: 5px;
+    top: -35px;
+}
+.selectphoto-btn {
+    margin-left: 80px;
+}
+.selectphoto-btn button {
+    margin-right: 30px;
+    margin-top: -10px;
+}
+.table-fenye {
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 90px;
+}
+.per-td div
+{
+    color: red;
+    width: 40px;
+    height: 20px;
+    float: left;
+    font-weight: 600;
+}

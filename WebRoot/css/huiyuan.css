@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:"Î¢ÈíÑÅºÚ";
+}
+.container {
+    width: 952px;
+    height: 520px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.lefthy {
+    width: 250px;
+    height: 520px;
+    border-right: 2px dashed #eeeeee;
+    float: left;
+}
+.nav-tabs {
+    border-top: 2px dashed #eeeeee;
+    border-bottom: 0px;
+}
+.nav-stackedhy li a {
+    font-size: 16px;
+    color: #000000;
+}
+.nav-stacked li a:hover {
+    background-color: #eeeeee;
+    opacity: 1;
+}
+.glyphicon {
+    padding-right: 10px;
+    color: #ff8fc9;
+}
+.middlehy {
+    width: 658px;
+    height: 518px;
+    font-size: 16px;
+    float: left;
+    background-color: #f1f4f5;
+}
+.mytable{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mytable tr {
+    height: 60px;
+}
+.mytable1 tr {
+    height: 50px;
+}
+.mytable1 tr td {
+    margin-left: 20px;
+}
+.mytable a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.mytable a{
+    color: #333;
+}
+
+.file-box{ position:relative;width:340px}
+.txt{ height:22px; border:1px solid #cdcdcd; width:180px;}
+.btn{ background-color:#FFF; border:1px solid #CDCDCD;height:24px; width:70px;}
+.file{ position:absolute; top:0; right:80px; height:24px; filter:alpha(opacity:0);opacity: 0;width:260px }

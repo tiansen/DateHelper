@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:"微软雅黑";
+}
+.container {
+    width: 952px;
+    height: 520px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#hidden-content {
+    display: none;
+    margin-left: 200px;
+}
+#hidden-content p {
+    width: 600px;
+}
+#hidden-content button {
+    margin-left: 180px;
+}
+.num {
+    font-size: 20px;
+    color: #ffff00;
+}

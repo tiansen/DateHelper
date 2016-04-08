@@ -1,0 +1,233 @@
+*{margin: 0px;}
+body{
+	background: #FDF2EE;
+}
+.header{
+	width:1038px;
+	height:116px;
+	background:#fff;
+	margin:0 auto;
+}
+.header img{
+	width:376px;
+	height:116px;
+}
+.content{
+	width: 1038px;
+	height: 760px;
+	background: url(../imgs/register.jpg) no-repeat;
+	margin: 0 auto;
+}
+.webInfo{
+	width: 550px;
+	height: 60px;
+}
+.webInfo h2{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	text-indent: 65px;
+	color: #f50;
+	line-height: 60px;
+}
+.userInfo{
+	width: 550px;
+	height: 710px;
+	background: #fff;
+	margin-left: 15px;
+	border-radius: 8px;
+	box-shadow: 0 0 3px orange;
+	
+}
+.reg{
+	width: 530px;
+	margin-left: 35px;
+
+}
+.basicInfo{
+	margin-left: 20px;
+}
+.account{
+	padding-top: 18px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color:#f60;
+	border-bottom: 1px solid orange;
+	width: 500px;
+}
+.account span{
+	border-bottom: 2px solid orange;
+}
+.reg input{
+	margin-top: 12px;
+	margin-left: 20px;
+	border-radius: 4px;
+	border:1px solid gray;
+	height: 22px;
+}
+.basicInfo p{
+	font-family: "微软雅黑";
+	font-size:14px;
+}
+.basicInfo input{
+	width:161px;
+	position: relative;
+}
+.makeFriendInfo #age,#mobile{
+	width:161px;
+	margin-left: 16px;
+}
+.basicInfo div{
+	width:200px;
+	border: 1px solid #f60;
+	box-shadow:0 0 3px #f60;
+	position: absolute;
+	font-size: 12px;
+	font-family:'微软雅黑';
+	padding:4px;
+	color: #666;
+	display:none;
+	margin-left: 248px;
+	margin-top:-26px;
+	border-radius: 4px;
+}
+#promptemail a{
+	color:#f60;
+}
+.userpwd,.username{
+	margin-left: 28px;
+}
+.makeFriendInfo{
+	margin-left: 20px;
+}
+.makeFriendInfo p{
+	font-family: "微软雅黑";
+	font-size:14px;
+}
+.sex{
+	margin-left: 28px;
+}
+.sex span{
+	margin-left: 44px;
+	font-size: 12px;
+}
+#man{
+	margin-right: 6px;
+}
+#woman{
+	margin-right: 6px;
+}
+.birth,.tel{
+	margin-left: 28px;
+}
+.area select{
+	margin-top: 12px;
+	margin-left: 16px;
+	border-radius: 4px;
+	border:1px solid gray;
+	width: 74px;
+	height: 26px;
+}
+.area #seachcity,#seachdistrict{
+	margin-left: 12px;
+}
+.height{
+	margin-left: 28px;
+}
+.height select{
+	margin-top: 12px;
+	margin-left: 16px;
+	border-radius: 4px;
+	border:1px solid gray;
+	width: 164px;
+	height: 26px;
+}
+.marry select{
+	margin-top: 12px;
+	margin-left: 16px;
+	border-radius: 4px;
+	border:1px solid gray;
+	width: 164px;
+	height: 26px;
+}
+.intro{
+	margin-top: 12px;
+}
+.intro span{
+	margin-left: 16px; 
+	margin-right: -13px;
+	padding: 3px 17px 3px 17px;
+	border: 1px solid gray;
+	border-radius: 4px 4px 0 0;
+	cursor: pointer;
+}
+#introInfo1{
+	width: 270px;
+	height: 160px;
+	margin-left: 79px;
+	border: 1px solid gray;
+	margin-top: 3px;
+	border-radius: 0 4px 0 0;
+
+}
+#introInfo2{
+	width: 360px;
+	height: 160px;
+	margin-left: 79px;
+	border: 1px solid gray;
+	margin-top: 3px;
+	border-radius: 0 4px 0 0;
+	display:none;
+}
+#introInfo2 ul{
+	width: 356px;
+	font-size: 12px;
+	margin-left: -30px;
+}
+#introInfo2 ul li{
+	list-style: none;
+}
+#introInfo2 input{
+	width:250px;
+	margin-left: 2px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+.intro #self{
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+.intro #other{
+	background: #ddd;
+}
+textarea{
+	border: none;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#sumbit{
+	margin-top: 12px;
+	width:164px;
+	height: 40px;
+	margin-left: 78px;
+	background: #ddd;
+	border: 1px solid orange;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#sumbit:hover{
+	background: #f60;
+}
+.footer{
+	width:1038px;
+	height:70px;
+	margin: 0px auto;
+}
+.footer p{
+	font-size: :16px;
+	font-family: "宋体";
+	color: :#ddd;
+	margin:0 auto;
+    text-align: center;
+    color: #999;
+	margin-top: 20px;
+}

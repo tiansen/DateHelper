@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="USER" namespace="" extends="struts-default">
+		<action name="user_*" class="com.teamwork.action.UserAction" method="{1}">
+		<!-- 定义文件上传拦截器 -->
+             <interceptor-ref name="fileUpload">
+                 <!-- 设置文件上传大小 -->
+                 <param name="maximumSize">409600</param>
+
+             </interceptor-ref>
+             <!-- 自定义了拦截器后必手动定义默认的拦截器，否则默认的拦截器不会被执行 -->
+             <interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="pagePath">${pagePath}</result>
+		</action>
+		<action name="service_*" class="com.teamwork.action.ServiceAction" method="{1}">
+			<result name="pagePath">${pagePath}</result>
+		</action>
+		<action name="order_*" class="com.teamwork.action.OrderAction" method="{1}">
+			<result name="pagePath">${pagePath}</result>
+		</action>
+		<action name="date_*" class="com.teamwork.action.DateAction" method="{1}">
+			<result name="pagePath">${pagePath}</result>
+		</action>
+		
+<!-- 		<action name="file_*" class="com.teamwork.action.UserAction" method="{1}">
+            <result name="pagePath">${pagePath}</result>
+            定义文件上传拦截器
+             <interceptor-ref name="fileUpload">
+                 设置文件上传大小
+                 <param name="maximumSize">409600</param>
+
+             </interceptor-ref>
+             自定义了拦截器后必手动定义默认的拦截器，否则默认的拦截器不会被执行
+             <interceptor-ref name="defaultStack"></interceptor-ref>
+         </action> -->
+	</package>
+</struts>    

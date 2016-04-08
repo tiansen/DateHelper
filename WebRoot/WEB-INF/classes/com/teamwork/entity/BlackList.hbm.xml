@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.teamwork.entity">
+	<class name="BlackList">
+		<id name="BlackListId" type="java.lang.Integer">
+			<column name="BlackListId" />
+			<generator class="identity" />
+		</id>
+		<property generated="never" lazy="false" name="UserId"
+			type="java.lang.Integer">
+			<column name="UserId" />
+		</property>
+		<property generated="never" lazy="false" name="BlackUser"
+			type="java.lang.Integer">
+			<column name="BlackUser" />
+		</property>
+
+
+	</class>
+</hibernate-mapping>
